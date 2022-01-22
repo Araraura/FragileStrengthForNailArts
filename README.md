@@ -1,4 +1,6 @@
 # FragileStrengthForNailArts
-Original code by @TTacco
+Original code by @TTacco.
 
-Allows Nail Arts to be affected by the damage increase from Fragile / Unbreakable Strength
+Allows Nail Arts to be affected by the damage increase from Fragile / Unbreakable Strength.
+
+Contributions / pull requests are welcome!
