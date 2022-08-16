@@ -25,16 +25,6 @@ namespace FragileStrengthForNailArts
 			{
 				int damageDealt2 = hit.DamageDealt;
 				hit.DamageDealt = (int)(damageDealt2 * 1.5);
-				if (PlayerData.instance.equippedCharm_6 && PlayerData.instance.health == 1 && (hit.Source.name.Contains("Hit L") || hit.Source.name.Contains("Hit R")))
-				{
-					int damageDealt3 = hit.DamageDealt;
-					hit.DamageDealt = (int)(damageDealt3 * 1.75);
-				}
-			}
-			else if (hit.AttackType.ToString().Contains("Nail") && PlayerData.instance.equippedCharm_6 && PlayerData.instance.health == 1 && (hit.Source.name.Contains("Hit L") || hit.Source.name.Contains("Hit R")))
-			{
-				int damageDealt4 = hit.DamageDealt;
-				hit.DamageDealt = (int)(damageDealt4 * 1.75);
 			}
 			return hit;
 		}
