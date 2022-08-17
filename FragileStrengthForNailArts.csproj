@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <!--Project was exported from assembly: C:\Program Files (x86)\Steam\steamapps\common\Hollow Knight 1.4.3.2\hollow_knight_Data\Managed\Mods\FragileStrengthForNailArts.dll-->
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -8,7 +7,7 @@
     <OutputType>Library</OutputType>
     <AssemblyName>FragileStrengthForNailArts</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <ApplicationVersion>1.0.1.0</ApplicationVersion>
+    <ApplicationVersion>1.0.2.0</ApplicationVersion>
     <FileAlignment>512</FileAlignment>
     <RootNamespace>FragileStrengthForNailArts</RootNamespace>
   </PropertyGroup>
